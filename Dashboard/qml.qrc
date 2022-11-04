@@ -9,5 +9,8 @@
         <file>tacho.png</file>
         <file>Tachometer.qml</file>
         <file>SpeedoMeter.qml</file>
+        <file>clipart3344978.png</file>
+        <file>FuelGauge.qml</file>
+        <file>gauge.png</file>
     </qresource>
 </RCC>

@@ -2,10 +2,19 @@ import QtQuick 2.15
 
 Item {
     property int rpm: 0
+    property double tachoOpacity: 0.75
     Image {
         source: "tacho.png"
         width: 500
         height: 500
+        opacity: tachoOpacity
+        Behavior on opacity {
+            PropertyAnimation {
+                duration: 1000
+
+            }
+        }
+
         Image {
             source: "needlered.png"
             anchors.centerIn: parent
